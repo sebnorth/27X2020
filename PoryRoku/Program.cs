@@ -8,8 +8,8 @@ namespace PoryRoku
 {
     class Program
     {
-        //Defincja typu wyliczoniowego
-        enum PoryRoku : byte { Wiosna, Lato, Jesien, Zima }
+        //Defincja typu wyliczeniowego
+        enum PoryRoku : byte { Wiosna, Lato, Zima, Jesień }
 
         static void Main(string[] args)
         {
