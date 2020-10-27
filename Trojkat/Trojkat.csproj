@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D32A8645-E440-4E3E-954C-ED1D3D8C87DA}</ProjectGuid>
+    <ProjectGuid>{9018F669-7B62-4558-9C9B-8973A14EEB46}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>RokPrzestepny</RootNamespace>
-    <AssemblyName>RokPrzestepny</AssemblyName>
+    <RootNamespace>Trojkat</RootNamespace>
+    <AssemblyName>Trojkat</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Obliczenia.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

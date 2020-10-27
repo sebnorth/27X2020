@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RokPrzestepny", "RokPrzestepny\RokPrzestepny.csproj", "{D32A8645-E440-4E3E-954C-ED1D3D8C87DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trojkat", "Trojkat\Trojkat.csproj", "{9018F669-7B62-4558-9C9B-8973A14EEB46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoryRoku", "PoryRoku\PoryRoku.csproj", "{1B859ECA-9A52-46C8-93BD-96822216D208}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D32A8645-E440-4E3E-954C-ED1D3D8C87DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32A8645-E440-4E3E-954C-ED1D3D8C87DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32A8645-E440-4E3E-954C-ED1D3D8C87DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9018F669-7B62-4558-9C9B-8973A14EEB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9018F669-7B62-4558-9C9B-8973A14EEB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9018F669-7B62-4558-9C9B-8973A14EEB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9018F669-7B62-4558-9C9B-8973A14EEB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B859ECA-9A52-46C8-93BD-96822216D208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B859ECA-9A52-46C8-93BD-96822216D208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B859ECA-9A52-46C8-93BD-96822216D208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B859ECA-9A52-46C8-93BD-96822216D208}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

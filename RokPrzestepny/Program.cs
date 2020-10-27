@@ -10,13 +10,14 @@ namespace RokPrzestepny
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Podaj rok: ");
-            int.TryParse(Console.ReadLine(), out int rok);
+            //Console.WriteLine("Podaj rok: ");
+            //int.TryParse(Console.ReadLine(), out int rok);
 
-            if ((rok % 4 == 0 && rok % 100 != 0) || (rok % 400 == 0))
-                Console.WriteLine("Rok {0} jest przestępny", rok);
-            else
-                Console.WriteLine("Rok {0} nie jest przestępny", rok);
+            Obliczenia.CzyRokJestPrzestepny(1900);
+            Obliczenia.CzyRokJestPrzestepny(2000);
+            Obliczenia.CzyRokJestPrzestepny(2020);
+            Obliczenia.CzyRokJestPrzestepny(2021);
+
 
 
             Console.ReadKey();
